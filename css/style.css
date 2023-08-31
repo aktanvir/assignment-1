@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: 'Lato';
+}
+
+
+.text-heading {
+    color: #130b0b;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.base-color {
+    color: #eb6a86;
+}
+
+
+.text-para {
+    color: rgba(8, 8, 8, 0.6);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 410;
+    line-height: 35px;
+    text-align: center;
+}
+
+.front-page {
+    height: auto;
+    width: auto;
+    display: flex;
+    background: rgba(199, 68, 97, 0.1);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4% 10% 0 12%;
+}
+
+.front-title {
+
+    width: 155%;
+    color: #3d3d3d;
+    font-family: Lato;
+    color: #292828;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 900;
+    font-weight: 900;
+}
+
+
+.front-description {
+    margin-top: 25px;
+    color: rgba(17, 17, 17, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+
+.btn {
+    padding: 22px 45px;
+    gap: 12px;
+    border-radius: 10px;
+    background: #e4204b;
+    color: #f8f3f3;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 800;
+    border-style: none;
+    margin-top: 22px;
+}
+
+
+.front-img {
+    width: 105%;
+    height: 105%;
+}
+
+
+
+.featured-section {
+    width: auto;
+    margin: 7% 12% 7% 12%;
+    align-items: center;
+}
+
+.featured-title h3 {
+    color: #0a0a0a;
+    text-align: center;
+    font-family: Lato;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.featured-title p {
+    text-align: center;
+    color: rgba(10, 10, 10, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+
+.featured-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.img-1 {
+    border-radius: 350px 350px 0px 0px;
+    background: rgba(187, 35, 108, 0.15);
+}
+
+.img-2 {
+    border-radius: 350px 350px 0px 0px;
+    background: rgba(3, 118, 124, 0.15);
+}
+
+.img-3 {
+    border-radius: 350px 350px 0px 0px;
+    background: rgba(48, 85, 11, 0.15);
+}
+
+.caption {
+    text-align: center;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.extra-section {
+    width: auto;
+    height: 280px;
+    margin: 9% 12% 9% 12%;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(5, 5, 5, 0.05);
+    display: flex;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    justify-content: space-around;
+}
+
+.deals {
+    height: 600px;
+    width: auto;
+    height: 600px;
+    display: flex;
+    background: rgba(173, 74, 95, 0.1);
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 4% 10% 0 12%;
+    margin-top: 50px;
+}
+
+.insta {
+    width: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.insta-img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 5% auto;
+}
+
+
+.latest {
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    margin: 90px;
+    width: 80%;
+    height: 450px;
+    margin: 8% 12% 8% 12%;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+    justify-content: space-around;
+}
+
+.contact {
+    display: flex;
+
+}
+
+.text {
+    text-align: center;
+}
+
+
+.contact input[type="email"] {
+    display: block;
+    margin-top: 25px;
+    padding: 20px 30px;
+    color: #f0eaea;
+    border-radius: 8px;
+    background: #f0e9e9;
+    border: 0;
+    width: 450px;
+}
+
+.subscribe {
+    margin-left: 8%;
+}
+
+
+footer {
+    width: auto;
+    height: 300px;
+    background: #070707;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h3 {
+    color: #f5f1f1;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+footer p {
+    color: rgba(253, 247, 247, 0.9);
+
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 25px;
+}
+
+.copyright {
+    color: rgba(207, 199, 199, 0.877);
+
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 450;
+}
+
+.contact {
+    display: flex;
+    width: 40%;
+
+}
